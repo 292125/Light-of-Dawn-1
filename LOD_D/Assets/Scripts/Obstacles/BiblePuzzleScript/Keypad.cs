@@ -22,17 +22,16 @@ public class Keypad : MonoBehaviour
     {
         // เปลี่ยนจาก GetComponentInParent เป็น GetComponent
         numpadInteraction = GetComponent<NumpadInteraction>();
-        // if (numpadInteraction == null)
-        // {
-        //     Debug.LogError("NumpadInteraction script not found on the same GameObject!");
-        // }
+        if (numpadInteraction == null)
+        {
+            Debug.LogError("NumpadInteraction script not found on the same GameObject!");
+        }
 
         // หา player และ movement script
         player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
-            //PlayerMovement playerMovementScript = player.GetComponent<PlayerMovement>();
-            playerMovementScript = player.GetComponent("PlayerMovement")as MonoBehaviour;
+            playerMovementScript = player.GetComponent("PlayerMovement") as MonoBehaviour;
             if (playerMovementScript == null)
             {
                 Debug.LogError("PlayerMovement script not found on player!");

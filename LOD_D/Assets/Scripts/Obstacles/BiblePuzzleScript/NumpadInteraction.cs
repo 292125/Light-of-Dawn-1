@@ -26,7 +26,6 @@ public class NumpadInteraction : MonoBehaviour
 
         if (player != null)
         {
-            //PlayerMovement playerMovementScript = player.GetComponent<PlayerMovement>();
             playerMovementScript = player.GetComponent("PlayerMovement") as MonoBehaviour;
             playerRigidbody = player.GetComponent<Rigidbody2D>(); // หา Rigidbody2D
             
