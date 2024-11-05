@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 319c6ef0e31e5d84faa9b7cda05211ea
+guid: de19be4ba19a2d244b0799cb46c4dbda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4680272479320961354
-    second: Stone Door_0
+      213: -5281422124547630143
+    second: Chest_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone Door_0
+      name: Chest_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 40
-        height: 142
+        x: 9
+        y: 15
+        width: 170
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6be890a2af45c0fb0800000000000000
-      internalID: -4680272479320961354
+      spriteID: 1cb13755f8e94b6b0800000000000000
+      internalID: -5281422124547630143
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Stone Door_0: -4680272479320961354
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

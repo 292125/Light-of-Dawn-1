@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      QuestionBalloon2 1_0: 4709164223998626138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

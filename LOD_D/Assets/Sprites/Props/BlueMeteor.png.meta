@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlueMeteor_0: 452937603966232056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
